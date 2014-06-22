@@ -17,4 +17,4 @@ The script works in three parts:
 
 * First, it merges the training set data with the test set data. 
 * Second, it get a subset from the data created above with just the mean and standard deviation of the data
-*Finally, it melts the data, replaces column names with titles that are more clear and it creates the tidy data set to a file called tidy_data.txt
+* Finally, it melts the data, replaces column names with titles that are more clear and it creates the tidy data set to a file called tidy_data.txt
