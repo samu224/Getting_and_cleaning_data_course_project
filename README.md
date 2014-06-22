@@ -15,6 +15,6 @@ Description:
 
 The script works in three parts:
 
-* First, it merges the training set data with the test set data. 
-* Second, it get a subset from the data created above with just the mean and standard deviation of the data
+* First, it creates all necessary variables from the text files provided, then once all of the variables are created, we move to first merge the data with the propper labels for both train and test data and then we merge both test and train data to create one data set called `complete_data_set` 
+* Second, we grab the features from its respective file, we grab only the mean and std from the file and perform a subset on the data in order to only pull the data we are interested on
 * Finally, it melts the data, replaces column names with titles that are more clear and it creates the tidy data set to a file called tidy_data.txt
